@@ -34,3 +34,7 @@ h1{
 p{
   @apply text-warmgray
 }
+
+.sections {
+  @apply h-screen flex flex-col justify-center items-center gap-8
+}

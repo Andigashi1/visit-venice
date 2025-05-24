@@ -29,25 +29,23 @@ const places = [
 
 const Places = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-8 min-h-screen max-w-5xl mx-auto my-32">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold uppercase text-deep">
-          Discover Venice
-        </h1>
-        <p className="">From iconic sites to hidden gems</p>
-      </div>
-
-      <div className="space-y-6 w-full">
-        {places.map((place, i) => (
-          <Card
-            key={i}
-            title={place.title}
-            description={place.description}
-            imageUrl={place.imageUrl}
-          />
-        ))}
-      </div>
+    <div className="flex flex-col justify-center items-center gap-12 min-h-screen max-w-6xl mx-auto px-4 py-32">
+    <div className="text-center">
+      <h1 className="text-4xl font-bold uppercase text-deep mb-2">Discover Venice</h1>
+      <p className="text-gray-600 text-lg">From iconic sites to hidden gems</p>
     </div>
+
+    <div className="grid grid-cols-1 gap-10 w-full">
+      {places.map((place, i) => (
+        <Card
+          key={i}
+          title={place.title}
+          description={place.description}
+          imageUrl={place.imageUrl}
+        />
+      ))}
+    </div>
+  </div>
   );
 };
 
