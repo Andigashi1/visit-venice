@@ -47,7 +47,7 @@ const History = () => {
           <span className="absolute -left-6 top-2 w-4 h-4 bg-primary rounded-full" />
           <h2 className="text-xl font-semibold uppercase mb-2">1797 – Decline and Reinvention</h2>
           <p className="text-gray-700">
-            Venice’s golden age lasted until the 17th century, when shifting trade routes, wars, and the rise of powerful nation-states led to its slow decline. In 1797, Napoleon conquered the city, ending over a millennium of independence.
+            Venice&apos;s golden age lasted until the 17th century, when shifting trade routes, wars, and the rise of powerful nation-states led to its slow decline. In 1797, Napoleon conquered the city, ending over a millennium of independence.
             <br /><br />
             But Venice never truly faded. In the centuries that followed, it reinvented itself — first as a romantic destination for poets and aristocrats, and now as a global cultural treasure. Today, it is a UNESCO World Heritage Site visited by millions, admired for its history, beauty, and resistance to time.
           </p>
