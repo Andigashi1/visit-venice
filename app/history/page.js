@@ -38,7 +38,7 @@ const History = () => {
           <p className="text-gray-700">
             With wealth came art. Venice became a beacon of the Renaissance, nurturing talents like Titian, Tintoretto, Bellini, and Veronese. The city's architecture blended Byzantine, Gothic, and Renaissance styles into a unique and elegant harmony.
             <br /><br />
-            The iconic St. Mark’s Basilica with its golden mosaics, the majestic Doge’s Palace, and the Rialto Bridge all stand as lasting testaments to Venetian glory.
+            The iconic St. Mark&apos;s Basilica with its golden mosaics, the majestic Doge&apos;s Palace, and the Rialto Bridge all stand as lasting testaments to Venetian glory.
           </p>
         </div>
 
