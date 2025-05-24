@@ -27,7 +27,7 @@ const History = () => {
           <p className="text-gray-700">
             By the 9th century, Venice was gaining power and influence. Thanks to its strategic location between East and West, it became a key player in international trade. In 697 AD, Venice elected its first Doge — the ruler of the newly forming Republic.
             <br /><br />
-            Venice's ships dominated the Mediterranean. Its merchants brought back silk, spices, and exotic goods from Constantinople and beyond, making the city immensely wealthy. The Venetian Arsenal could build a ship a day — an astonishing feat at the time.
+            Venice&apos;s ships dominated the Mediterranean. Its merchants brought back silk, spices, and exotic goods from Constantinople and beyond, making the city immensely wealthy. The Venetian Arsenal could build a ship a day — an astonishing feat at the time.
           </p>
         </div>
 
@@ -36,7 +36,7 @@ const History = () => {
         <span className="absolute -left-6 top-2 w-4 h-4 bg-primary rounded-full" />
           <h2 className="text-xl font-semibold uppercase mb-2">Renaissance – Flourishing of Culture</h2>
           <p className="text-gray-700">
-            With wealth came art. Venice became a beacon of the Renaissance, nurturing talents like Titian, Tintoretto, Bellini, and Veronese. The city's architecture blended Byzantine, Gothic, and Renaissance styles into a unique and elegant harmony.
+            With wealth came art. Venice became a beacon of the Renaissance, nurturing talents like Titian, Tintoretto, Bellini, and Veronese. The city&apos;s architecture blended Byzantine, Gothic, and Renaissance styles into a unique and elegant harmony.
             <br /><br />
             The iconic St. Mark&apos;s Basilica with its golden mosaics, the majestic Doge&apos;s Palace, and the Rialto Bridge all stand as lasting testaments to Venetian glory.
           </p>
