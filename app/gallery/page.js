@@ -173,15 +173,15 @@ const images = [
 ];
 const page = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-8 min-h-screen max-w-5xl mx-auto my-32">
+    <div className="flex flex-col justify-center items-center gap-8 min-h-screen max-w-5xl mx-auto my-32 px-4">
       <div className="text-center">
         <h1>Moments from Venice</h1>
         <p>Wander through the beauty, one photo at a time.</p>
       </div>
 
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-3 max-md:grid-cols-1 gap-4">
         {images.map((image) => (
-          <div key={image.id} className={` overflow-hidden rounded-lg shadow-md hover:scale-120 transition-all duration-200
+          <div key={image.id} className={` overflow-hidden rounded-lg shadow-md md:hover:scale-120 transition-all duration-200
           ${image.orientation === "portrait" ? 'row-span-2 aspect-[3/4]' : 'aspect-[4/3] '}`}>
             <Image
               src={image.imageUrl}

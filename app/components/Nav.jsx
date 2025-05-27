@@ -16,7 +16,7 @@ const Nav = () => {
   return (
     <div className="z-100 fixed top-8 left-4 right-4 py-2 px-5 md:px-10 bg-white border border-neutral-200 shadow-lg flex justify-between items-center rounded-xl">
       <Image src={logo} className="w-20 h-12 max-md:hidden" alt="logo" />
-      <button onClick={toggleMenu} className="md:hidden">
+      <button onClick={toggleMenu} className="md:hidden cursor-pointer">
         {menuOpen ? <X size={28} /> : <Menu size={28} />}
       </button>
       <div className={`${menuOpen ? 'flex' : 'hidden'} md:flex gap-6 max-md:text-xs font-bold [&>*]:cursor-pointer`}>

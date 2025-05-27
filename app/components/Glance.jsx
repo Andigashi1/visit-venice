@@ -25,9 +25,9 @@ const glance = [
 
 const Glance = () => {
   return (
-    <div className="sections mx-4">
+    <div className="sections max-md:mt-20">
       <h1>Venice at a glance</h1>
-      <div className="flex gap-2">
+      <div className="flex max-md:flex-col gap-2">
         {glance.map((card, i) => (
           <div key={i} className="px-4 py-16 bg-primary rounded-md">
             {card.icon}

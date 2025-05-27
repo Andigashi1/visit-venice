@@ -13,7 +13,8 @@ const MiniGallery = () => {
           Scenes that capture the soul of Venice.
         </p>
       </div>
-      <div className="flex gap-4 [&>*]:rounded-2xl [&>*]:hover:scale-110 [&>*]:transition duration-200 [&>*]:hover:shadow-3xl">
+      <div className="flex gap-4 [&>*]:rounded-2xl md:[&>*]:hover:scale-110 [&>*]:transition duration-200 [&>*]:hover:shadow-3xl
+      max-lg:overflow-x-scroll">
         <Image
           src={chiesa}
           width={320}

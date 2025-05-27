@@ -36,5 +36,5 @@ p{
 }
 
 .sections {
-  @apply h-screen flex flex-col justify-center items-center gap-8
+  @apply min-h-screen flex flex-col justify-center items-center gap-8
 }

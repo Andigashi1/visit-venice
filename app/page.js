@@ -6,7 +6,7 @@ import MiniGallery from "./components/MiniGallery";
 
 const Home = () => {
   return (
-    <div>
+    <div className="not-first:px-4">
       <Header/>
       <Glance/>
       <MiniGallery/>
